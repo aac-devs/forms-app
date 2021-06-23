@@ -1,12 +1,14 @@
-import SimpleInput from "./components/SimpleInput";
-import SimpleInputRef from "./components/SimpleInputRef";
+import BasicForm from "./components/BasicForm";
+// import SimpleInput from "./components/SimpleInput";
+// import SimpleInputRef from "./components/SimpleInputRef";
 
 function App() {
   return (
     <div className="app">
-      <SimpleInput />
+      {/* <SimpleInput />
       <hr></hr>
-      <SimpleInputRef />
+      <SimpleInputRef /> */}
+      <BasicForm />
     </div>
   );
 }
